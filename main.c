@@ -12,8 +12,8 @@
 #include <syslog.h>
 #include <sys/wait.h>
 #include <signal.h>
+#include <bcm2835.h>
 #include "rfid.h"
-#include "bcm2835.h"
 #include "config.h"
 
 uint8_t HW_init(uint32_t spi_speed, uint8_t gpio);
